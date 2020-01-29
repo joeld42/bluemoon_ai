@@ -1,0 +1,7 @@
+# List of source files which contain translatable strings.
+ai.c
+init.c
+engine.c
+gui.c
+net.c
+dummy.c

@@ -1,0 +1,8 @@
+Keldon Jones (keldon@keldon.net) is the primary author.
+
+Dean Svendsen created the initial Windows port, and supplied several
+important optimizations in the neural net code.
+
+Christopher Dearlove wrote the Blue Moon FAQ, which convinced me that a
+program to play the game against would be achievable.  The FAQ has also
+proved invaluable in the creation of the rules engine.

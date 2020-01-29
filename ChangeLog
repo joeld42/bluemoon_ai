@@ -1,0 +1,382 @@
+2008-07-27
+
+Released version 1.3.2
+
+2008-07-27
+
+Fixed Boatswain Mena Marn.
+
+2008-07-23
+
+Fix cards which ignore all icons or special text to include influence
+cards and any other types of cards.
+
+2008-07-22
+
+Automatically select target for "one of my" cards to maximize total power.
+
+2008-07-21
+
+Fixed GUI turn order when human player bluff is called.
+
+Fixed STOP icon and cards that allow additional booster/support cards.
+
+2008-07-20
+
+Changed Mimix mutant to not count ships.
+
+Adjusted height of cards loaded on ships to avoid running off the bottom.
+
+2008-07-18
+
+Released version 1.3.1
+
+2008-07-17
+
+Fix bug in GUI when choosing from multiple bluff cards.
+
+2008-07-14
+
+Modify README with instructions for playing bluff cards or loading cards
+onto ships.
+
+Add code for choosing cards to discard when opponent's hand is disclosed
+and cards are discarded from hand.
+
+2008-07-09
+
+Fixed timing of special effects that affect "one of my" cards.
+
+Fixed Lookout Dolora Paal when some support cards were PROTECTED.
+
+Allow leadership or influence cards to be played from the hand even when
+a ship is landed.
+
+Always prompt user for target of "ony of my" cards whenever needed,
+instead of waiting for announce power.
+
+Split dragons attracted from retreat from dragon from Irresistible Sirens
+when opponent is forced to retreat due to Floods.
+
+2008-07-08
+
+Released version 1.3.0
+
+2008-07-08
+
+Added strings to assist feature for Buka related actions such as landing
+or loading ships, or playing bluff cards.
+
+2008-07-07
+
+Clear "played this turn" flag on ships when player retreats.
+
+2008-06-12
+
+Fixed bug regarding Old Goo Laa's Ghost and landed ships.
+
+2008-06-11
+
+Performance enhanced when AI considers playing Quartermaster Kura Ko
+and Armory in the same turn.
+
+2008-05-29
+
+Improved performance of checking whether a set of cards used to satisfy
+a Caterpillar are legal.
+
+2008-05-28
+
+Changed neural net inputs to count total number of cards in hand plus
+cards in draw deck, rather than just draw deck.  Otherwise cards like
+Muster Reinforcements are sometimes thought to be harmful to play.
+
+2008-05-26
+
+Added code to further predict the consequences of declining a fight.
+
+2008-05-24
+
+Added code to predict whether the opponent will be forced to retreat due
+to our play.  Uses cards in hand if they are all known (due to end of
+game or disclosure), otherwise uses all cards with unknown locations.
+
+2008-05-01
+
+Reordered "end of support" phase events so that possible game-ending cards
+like Irresistible Sirens are handled properly.
+
+2008-04-27
+
+Prevent ignored bluff cards from being called.
+
+Prevent play of bluff cards when support cards are ignored.
+
+2008-04-25
+
+Fix AI bug caused by instant win/loss from Irresistible Sirens when pending
+card choice is to be made.
+
+2008-04-05
+
+Added code to handle cards like "Cast Cataclysm" discarding bluff cards.
+
+2008-02-28
+
+Added several neural net inputs for cards loaded on ships, and numbers of
+bluff cards played.
+
+Changed in memory structure of neural net for better cache performance
+with extra (often unused) inputs.
+
+2008-02-23
+
+Added code to GUI to reveal bluff cards at beginning of turn.
+
+2008-02-20
+
+Fixed bug where cards with values ignored could satisfy Caterpillar
+Fireeater or Caterpillar Eartheroder.
+
+Fixed bug where cards could be added to gangs even after card with STOP
+icon had been played.
+
+2008-02-18
+
+Added popup menu to cards in hand, to allow loading onto ships or
+playing as a bluff.
+
+2008-02-17
+
+Don't allow AI to consider playing cards that were drawn randomly in
+simulated games.
+
+Reset random seed in simulated games, so that they don't accurately
+predict cards drawn from deck.
+
+2008-02-14
+
+Added GUI code to display influence cards, and cards loaded onto ships
+in influence area.
+
+2008-02-13
+
+Removed "upside down" effect in opponent cards, and reuse more code
+in table drawing.
+
+2008-02-08
+
+Added code for calling bluffs, and AI code to make bluff calling
+decisions.
+
+2008-02-07
+
+Added code for Buka bluff cards.
+
+2008-02-06
+
+Modified AI card chooser routines to work in more difficult situations.
+
+2008-02-05
+
+Added code for Buka ships.
+
+2008-02-04
+
+Fixed bug that allowed cards played "as FREE" to work even against Mad
+Mike Magpie.
+
+Added Buka cards to cards.txt file.
+
+Began adding code for Buka card effects.
+
+2008-02-03
+
+Reset full-size image to card back when matchup is changed.
+
+2008-02-01
+
+Removed attempt to hid close button on dialog boxes.  It does not work
+well under Windows.
+
+Added extra inputs for "instant win/loss" and train the AI more
+strictly when this happens.
+
+2008-01-31
+
+Released version 1.1.1
+
+2008-01-31
+
+Added comments to "do_matchup" script.
+
+Changed to set of newly trained neural nets.
+
+2008-01-30
+
+Cleared text log before loading new neural nets when matchup chosen,
+so that error messages would be seen.
+
+Wall of Fire incorrectly prevented searching your discard deck and
+taking cards from it.
+
+Added crude "Assist" feature to ask AI about the best move.
+
+2008-01-28
+
+Set random event flag when hand is disclosed, so that AI can recheck
+options with the new information.
+
+2008-01-27
+
+Fixed display bug where Administer Water of Immortality didn't clear
+the "top of discard pile" card displayed.
+
+Made several changes to "condition" program.  Added training of the
+"game over" and "no cards" inputs, and fixed the computed score when
+dragons are on one player's side or the other.
+
+2008-01-24
+
+Changed undo button to always go back to beginning of turn, instead of
+"retreat?" phase.
+
+Fixed announced power when Firewater or Earthwater is played on the first
+turn of a fight.
+
+Fixed memory leak in GUI, where rotated card images were not deleted.
+
+2008-01-23
+
+Added -r flag for setting random seed to learner.
+
+Somewhat unified the AI "move selection" and "card choice" code to
+avoid duplicating work.
+
+Removed ugly cache code from net.c, as we now make many fewer duplicate
+calls to eval_game(), so the cache code is actually a slowdown now.
+
+Split part of end_support() into check_end_support() to check if opponent
+cards are satisfied.
+
+2008-01-22
+
+Add LIBINTL to dumpnet libraries in Makefile.am.
+
+Fixed bug where Flitterflutter would not ignore Laughing Gas, by changing
+the priorities of several category 1 special texts and adding a function
+to handle conflicts between Flitterflutter, Laughing Gas, and Enthrall
+Opposition.
+
+Completely rewrote the AI move selection code.  It is much cleaner, and
+avoids re-evaluation of states as much as possible.
+
+Added "random event" flag when user makes choice, so that AI will
+reevaluate its decision after user is prompted during the AI's turn.
+
+Changed inputs for disclosed cards in hand to be for undisclosed cards
+instead.
+
+Attempt to hide the close button on choose dialogs, to prevent cheating
+by closing the window without having to discard anything.
+
+Don't prompt the user for a choice when the minimum choices is the same
+as the number of choices.
+
+2008-01-20
+
+Fixed bug in GUI that allowed ignored shields to be used.
+
+2008-01-17
+
+Added set of inputs for number of disclosed cards in hand.
+
+2008-01-17
+
+Released version 1.0.3
+
+2008-01-17
+
+Included new German translation file.
+
+2008-01-16
+
+Expanded interface explanation in README.
+
+Fixed bug in AI training where final set of inputs of a game aren't
+used in training.
+
+2008-01-15
+
+Added call to bind_textdomain_codeset so that gettext always returns text
+in UTF-8 format, which GTK seems to require.
+
+Fixed code in GUI to set current turn properly after a forced retreat
+from Flood supports.
+
+2008-01-14
+
+Started internationalization of messages, card names, and people names.
+
+Fixed bug where locales with different number formats could not read
+neural net files.
+
+Converted build system to autoconf/automake/etc.
+
+Ran 'gettextize' to finish internationalization work.
+
+Began German translation, from work done by Dean Svendsen.
+
+Moved neural net files to networks directory.
+
+Removed learn directory and moved programs there to main directory.
+
+2008-01-13
+
+Released version 1.0.2
+
+2008-01-13
+
+Added random selection for peoples.
+
+Fixed bug in debug dialog which caused a crash.
+
+2008-01-12
+
+Released version 1.0.1
+
+2008-01-12
+
+Added more error checking to neural net loading.
+
+Added random number generator to ensure same random number generation
+between Linux, Windows, or other systems for debugging purposes.
+
+Changed dates in source file copyright notice (added 2008).
+
+2008-01-11
+
+Added version string to about dialog, directory name, and window title.
+
+Added email address for bug reports to about dialog.
+
+Stored random seed in game state, so that the undo feature will also roll
+back to the previous random seed, keeping random effects from being
+exploited.
+
+Added tooltip to cards in hand that are disclosed to the opponent.
+
+Added warning message if neural net cannot be loaded.  Enhanced message
+functionaity to handle messages sent earlier than GUI initialization.
+
+Added command-line option to set starting random seed.
+
+Added debug dialog box for various things.  It shows the starting random
+seed and an option to show the AI player's hand.
+
+Fixed Drown Resistance allowing discarding of inactive combat cards.
+
+2008-01-10
+
+Added tooltips for showing the number of cards in the draw and discard
+piles.

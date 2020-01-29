@@ -1,0 +1,77 @@
+networkdir = $(pkgdatadir)/networks
+
+network_DATA = \
+bluemoon.net.Aqua.Buka \
+bluemoon.net.Aqua.Flit \
+bluemoon.net.Aqua.Hoax \
+bluemoon.net.Aqua.Khind \
+bluemoon.net.Aqua.Mimix \
+bluemoon.net.Aqua.Pillar \
+bluemoon.net.Aqua.Terrah \
+bluemoon.net.Aqua.Vulca \
+bluemoon.net.Buka.Aqua \
+bluemoon.net.Buka.Flit \
+bluemoon.net.Buka.Hoax \
+bluemoon.net.Buka.Khind \
+bluemoon.net.Buka.Mimix \
+bluemoon.net.Buka.Pillar \
+bluemoon.net.Buka.Terrah \
+bluemoon.net.Buka.Vulca \
+bluemoon.net.Flit.Aqua \
+bluemoon.net.Flit.Buka \
+bluemoon.net.Flit.Hoax \
+bluemoon.net.Flit.Khind \
+bluemoon.net.Flit.Mimix \
+bluemoon.net.Flit.Pillar \
+bluemoon.net.Flit.Terrah \
+bluemoon.net.Flit.Vulca \
+bluemoon.net.Hoax.Aqua \
+bluemoon.net.Hoax.Buka \
+bluemoon.net.Hoax.Flit \
+bluemoon.net.Hoax.Khind \
+bluemoon.net.Hoax.Mimix \
+bluemoon.net.Hoax.Pillar \
+bluemoon.net.Hoax.Terrah \
+bluemoon.net.Hoax.Vulca \
+bluemoon.net.Khind.Aqua \
+bluemoon.net.Khind.Buka \
+bluemoon.net.Khind.Flit \
+bluemoon.net.Khind.Hoax \
+bluemoon.net.Khind.Mimix \
+bluemoon.net.Khind.Pillar \
+bluemoon.net.Khind.Terrah \
+bluemoon.net.Khind.Vulca \
+bluemoon.net.Mimix.Aqua \
+bluemoon.net.Mimix.Buka \
+bluemoon.net.Mimix.Flit \
+bluemoon.net.Mimix.Hoax \
+bluemoon.net.Mimix.Khind \
+bluemoon.net.Mimix.Pillar \
+bluemoon.net.Mimix.Terrah \
+bluemoon.net.Mimix.Vulca \
+bluemoon.net.Pillar.Aqua \
+bluemoon.net.Pillar.Buka \
+bluemoon.net.Pillar.Flit \
+bluemoon.net.Pillar.Hoax \
+bluemoon.net.Pillar.Khind \
+bluemoon.net.Pillar.Mimix \
+bluemoon.net.Pillar.Terrah \
+bluemoon.net.Pillar.Vulca \
+bluemoon.net.Terrah.Aqua \
+bluemoon.net.Terrah.Buka \
+bluemoon.net.Terrah.Flit \
+bluemoon.net.Terrah.Hoax \
+bluemoon.net.Terrah.Khind \
+bluemoon.net.Terrah.Mimix \
+bluemoon.net.Terrah.Pillar \
+bluemoon.net.Terrah.Vulca \
+bluemoon.net.Vulca.Aqua \
+bluemoon.net.Vulca.Buka \
+bluemoon.net.Vulca.Flit \
+bluemoon.net.Vulca.Hoax \
+bluemoon.net.Vulca.Khind \
+bluemoon.net.Vulca.Mimix \
+bluemoon.net.Vulca.Pillar \
+bluemoon.net.Vulca.Terrah
+
+EXTRA_DIST = $(network_DATA)

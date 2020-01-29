@@ -1,0 +1,73 @@
+This is a program to play Blue Moon against an AI.  Rules for the game
+can be found at:
+
+http://www.fantasyflightgames.com/PDF/bluemoonrules.pdf
+
+COMPILATION
+
+As of version 1.0.3, autoconf support has been added.  Hopefully,
+compilation should be the typical "./configure && make && make install".
+If you experience compilation errors, please send details of your
+system and any errors to keldon@keldon.net .
+
+RUNNING
+
+Run with "./bluemoon".  You can specify which People to play and to play
+against with the following options:
+
+	-1 <people>   -- People you will play
+	-2 <people>   -- People you will play against
+
+You may also change these setting once the game is running with the
+"Select Matchup" option under the Game menu.
+
+INTERFACE
+
+To play a card, click on it.  Cards that cannot be legally played are
+displayed in monochrome.  If you have a retrievable card on the table,
+you may retrieve it by clicking on it.  If you have a card with text
+that begins "On my turn", click on it to use its special text effect.
+
+If you wish to play a card that says "I may", and you want to not use
+its special effect, click on it with your second, third, etc mouse
+button.  This is typically your middle or right mouse button.   This
+will bring up a menu with an option to "Play with no effect".  Note that
+this feature does not work on several cards at the moment, including all
+cards where the special effect takes place at a future point ("at the
+end of my turn", for example).
+
+You can also use this popup menu to play cards as bluff cards or to
+load them onto a Buka ship.
+
+If an opponent plays a Caterpillar or similar card and you wish to
+discard to satisfy it, click on the opponent's card.  Cards like
+"Kabu Kat" and "Baku But" will be satisified automatically when you
+play a support or booster card, respectively.
+
+Once you are done playing cards, choose to announce your power in Fire
+or Earth with the buttons on the left side.  The button will not be
+clickable unless you have matched your opponent's power, or played a
+shield, etc.  The button will also be unclickable if your opponent
+has an unsatisfied Caterpillar card.
+
+If you make a mistake and are not able to match your opponent's Power,
+you may undo your turn back to the "Retreat from Fight" phase with the
+Undo button.  You may then either retreat or play different cards in
+an attempt to match power.
+
+BUGS
+
+If you encounter a bug, especially an error in the rules implementation,
+please report it to keldon@keldon.net .
+
+LEGAL
+
+The source code is my own creation and is placed under the GPL.  For
+details, see the file COPYING.
+
+All copyrights related to Blue Moon are owned by Kosmos.  Blue Moon was
+designed by Reiner Knizia.  Permission to distribute the game, including
+the card images, has been granted by Kosmos.
+
+http://www.kosmos.de/
+http://www.knizia.de/

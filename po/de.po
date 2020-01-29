@@ -1,0 +1,2301 @@
+# German translations for bluemoon package
+# German messages for bluemoon.
+# Copyright (C) 2008 THE bluemoon'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the bluemoon package.
+# Keldon Jones <keldon@keldon.net>, 2008.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: bluemoon 1.0.3\n"
+"Report-Msgid-Bugs-To: keldon@keldon.net\n"
+"POT-Creation-Date: 2008-07-27 15:26-0600\n"
+"PO-Revision-Date: 2008-01-14 12:47-0700\n"
+"Last-Translator: Armin Rauch <rauch.armin@dnet.it>\n"
+"Language-Team: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ai.c:610
+#, c-format
+msgid "WARNING: Couldn't open %s, expect random play!\n"
+msgstr ""
+
+#: init.c:239
+#, c-format
+msgid "No effect matching '%s'!\n"
+msgstr ""
+
+#: engine.c:259
+#, c-format
+msgid "%s takes %s into hand.\n"
+msgstr "%s nimmt %s auf die Hand.\n"
+
+#: engine.c:267
+#, c-format
+msgid "Moving %s to draw pile.\n"
+msgstr "Gebe %s in den Nachziehstapel.\n"
+
+#: engine.c:275
+#, c-format
+msgid "Moving %s to combat area.\n"
+msgstr "Spiele %s in den Kampfbereich.\n"
+
+#: engine.c:283
+#, c-format
+msgid "Moving %s to support area.\n"
+msgstr "Spiele %s in den Unterstützungsbereich.\n"
+
+#: engine.c:292
+#, c-format
+msgid "%s moves %s to leadership area.\n"
+msgstr "%s wirft %s ab.\n"
+
+#: engine.c:301
+#, c-format
+msgid "%s moves %s to discard pile.\n"
+msgstr "%s wirft %s ab.\n"
+
+#: engine.c:794
+#, c-format
+msgid "Boosting %s with %s.\n"
+msgstr "Verstärkt %s mit %s.\n"
+
+#: engine.c:1332
+msgid "Choose card to boost"
+msgstr "Wähle die zu verstärkende Karte"
+
+#: engine.c:1399
+#, c-format
+msgid "%s retrieves %s.\n"
+msgstr "%s nimmt %s wieder auf.\n"
+
+#: engine.c:2922
+#, fuzzy, c-format
+msgid "Choose ship to load"
+msgstr "Wähle die zu ziehenden Karten"
+
+#: engine.c:3045 engine.c:3167 engine.c:3198
+#, c-format
+msgid "Choose card to discard"
+msgid_plural "Choose cards to discard"
+msgstr[0] "Wähle die abzuwerfende Karte"
+msgstr[1] "Wähle die abzuwerfenden Karten"
+
+#: engine.c:3285
+#, c-format
+msgid "Choose drawn card to discard"
+msgstr "Wähle die abzuwerfende Karte"
+
+#: engine.c:3327
+#, c-format
+msgid "Choose cards to return to draw deck"
+msgstr "Wähle die Karten, die zurück in den Nachziehstapel wandern"
+
+#: engine.c:3396
+#, fuzzy, c-format
+msgid "Choose card to play or load"
+msgstr "Wähle die abzuwerfende Karte"
+
+#: engine.c:3432
+#, fuzzy, c-format
+msgid "Choose cards to load onto %s"
+msgstr "Wähle die Karte(n) um %s zu bedienen"
+
+#: engine.c:3485
+#, c-format
+msgid "Choose cards to draw"
+msgstr "Wähle die zu ziehenden Karten"
+
+#: engine.c:3540
+#, c-format
+msgid "Choose card to retrieve"
+msgid_plural "Choose cards to retrieve"
+msgstr[0] "Wähle die Karte zum Wiederaufnehmen"
+msgstr[1] "Wähle die Karten zum Wiederaufnehmen"
+
+#: engine.c:3575
+#, c-format
+msgid "Choose cards to return to draw pile"
+msgstr "Wähle die Karten, die zurück in den Nachziehstapel wandern"
+
+#: engine.c:3718
+#, c-format
+msgid "%s attracts dragon using %s.\n"
+msgstr "%s gewinnt Drachen durch %s.\n"
+
+#: engine.c:3797
+#, c-format
+msgid "Choose cards to sacrifice to attract dragon"
+msgstr "Wähle die abzuwerfenden Karten, um 1 Drachen zu gewinnen"
+
+#: engine.c:3882 engine.c:5779
+#, c-format
+msgid "Choose cards to discard"
+msgstr "Wähle die abzuwerfenden Karten"
+
+#: engine.c:3999
+#, c-format
+msgid "%s plays %s with no effect.\n"
+msgstr "%s spielt %s ohne Effekt.\n"
+
+#: engine.c:4000
+#, c-format
+msgid "%s plays %s.\n"
+msgstr "%s spielt %s.\n"
+
+#: engine.c:4413
+#, fuzzy, c-format
+msgid "%s plays bluff card.\n"
+msgstr "%s spielt %s.\n"
+
+#: engine.c:4507
+#, fuzzy, c-format
+msgid "%s reveals bluff card %s.\n"
+msgstr "%s nimmt %s wieder auf.\n"
+
+#: engine.c:4557
+#, c-format
+msgid "%s calls bluff.\n"
+msgstr ""
+
+#: engine.c:4584
+#, fuzzy, c-format
+msgid "%s attracts dragon with successful bluff.\n"
+msgstr "%s gewinnt Drachen durch %s.\n"
+
+#: engine.c:4601
+#, fuzzy, c-format
+msgid "%s attracts dragon for calling bluff.\n"
+msgstr "%s gewinnt Drachen durch %s.\n"
+
+#: engine.c:4632
+#, fuzzy, c-format
+msgid "%s loads %s onto %s.\n"
+msgstr "%s nimmt %s auf die Hand.\n"
+
+#: engine.c:4690
+#, fuzzy, c-format
+msgid "%s lands %s.\n"
+msgstr "%s spielt %s.\n"
+
+#: engine.c:4811
+#, c-format
+msgid "%s uses %s special text.\n"
+msgstr "%s benutzt die Sonderfunktion von %s.\n"
+
+#: engine.c:4978
+#, c-format
+msgid "%s satisfies %s.\n"
+msgstr "%s bedient %s.\n"
+
+#: engine.c:5118
+#, c-format
+msgid "Choose cards to satisfy %s"
+msgstr "Wähle die Karte(n) um %s zu bedienen"
+
+#: engine.c:5166
+#, c-format
+msgid "%s attracts dragon due to %s.\n"
+msgstr "%s gewinnt Drachen durch %s.\n"
+
+#: engine.c:5313
+#, c-format
+msgid "%s attracts dragon using Storms.\n"
+msgstr "%s gewinnt 1 Drachen durch Stürme.\n"
+
+#: engine.c:5362
+msgid "Game over\n"
+msgstr "Spielende\n"
+
+#: engine.c:5365
+#, c-format
+msgid "%s wins %d crystal.\n"
+msgid_plural "%s wins %d crystals.\n"
+msgstr[0] "%s gewinnt %d Kristall.\n"
+msgstr[1] "%s gewinnt %d Kristalle.\n"
+
+#: engine.c:5663
+#, c-format
+msgid "%s retreats.\n"
+msgstr "%s zieht sich zurück.\n"
+
+#: engine.c:5670
+#, c-format
+msgid "%s attracts %d dragon.\n"
+msgid_plural "%s attracts %d dragons.\n"
+msgstr[0] "%s gewinnt %d Drachen.\n"
+msgstr[1] "%s gewinnt %d Drachen.\n"
+
+#: engine.c:5747
+#, c-format
+msgid "%s declines to start fight.\n"
+msgstr "%s verzichtet auf den Kampfbeginn.\n"
+
+#: engine.c:6032
+#, c-format
+msgid "%s announces %d earth.\n"
+msgstr "%s sagt %d Erde an.\n"
+
+#: engine.c:6033
+#, c-format
+msgid "%s announces %d fire.\n"
+msgstr "%s sagt %d Feuer an.\n"
+
+#: engine.c:6164
+#, c-format
+msgid "Forcing %s to retreat due to Floods.\n"
+msgstr "%s wird durch die Fluten zum Rückzug gezwungen.\n"
+
+#: gui.c:227
+#, c-format
+msgid "Cannot open image %s!\n"
+msgstr "Kann Bild %s nicht öffnen!\n"
+
+#: gui.c:692
+msgid "Play"
+msgstr ""
+
+#: gui.c:699
+#, fuzzy
+msgid "Play with no effect"
+msgstr "%s spielt %s ohne Effekt.\n"
+
+#: gui.c:725
+msgid "Play as bluff"
+msgstr ""
+
+#: gui.c:783
+#, c-format
+msgid "Load onto %s"
+msgstr ""
+
+#: gui.c:977
+msgid "Disclosed"
+msgstr "Aufgedeckt"
+
+#: gui.c:1388 gui.c:1406
+#, c-format
+msgid "%d card"
+msgid_plural "%d cards"
+msgstr[0] "%d Karte"
+msgstr[1] "%d Karten"
+
+#: gui.c:1506 gui.c:1528
+#, c-format
+msgid "Dragons: %d  Cards: %d  Power: %d"
+msgstr "Drachen: %d  Karten: %d  Stärke: %d"
+
+#: gui.c:1623
+#, fuzzy
+msgid "Current turn undone.\n"
+msgstr "Aktueller Zug wurde rückgängig gemacht.\n"
+
+#: gui.c:1729
+#, c-format
+msgid "gui_choose: No choices\n"
+msgstr "gui_choose: Kein Wahlmöglichkeiten\n"
+
+#: gui.c:1910
+#, c-format
+msgid "Min: %d, Max %d"
+msgstr ""
+
+#: gui.c:2006
+msgid "Call bluff"
+msgstr ""
+
+#: gui.c:2013
+msgid "Call bluff?"
+msgstr ""
+
+#: gui.c:2149
+msgid "Select Matchup"
+msgstr "Völkerwahl"
+
+#: gui.c:2165
+msgid "Human"
+msgstr "Mensch"
+
+#: gui.c:2203 gui.c:2257
+msgid "Random"
+msgstr "Zufällig"
+
+#: gui.c:2219
+msgid "Computer"
+msgstr ""
+
+#: gui.c:2341
+msgid "Debug"
+msgstr ""
+
+#: gui.c:2346
+#, c-format
+msgid "Game random seed: %u"
+msgstr ""
+
+#: gui.c:2352
+msgid "Disclose opponent hand"
+msgstr "Decke die gegnerische Hand auf"
+
+#: gui.c:2429
+msgid ""
+"This program is written by Keldon Jones, and the source code is licensed "
+"under the GNU General Public License.\n"
+"\n"
+"The original Blue Moon card game is authored by Reiner Knizia.\n"
+"\n"
+"Blue Moon is published by Kosmos.  All copyrights are owned by Kosmos.\n"
+"\n"
+"Windows porting and other improvements made by Dean Svendsen.\n"
+"\n"
+"Send bug reports to keldon@keldon.net"
+msgstr ""
+
+#: gui.c:2570
+msgid "Game"
+msgstr "Spiel"
+
+#: gui.c:2576
+msgid "Help"
+msgstr "Hilfe"
+
+#: gui.c:2588
+msgid "New"
+msgstr "Neu"
+
+#: gui.c:2589
+msgid "Select Matchup..."
+msgstr "Völkerwahl..."
+
+#: gui.c:2590
+msgid "Debug..."
+msgstr ""
+
+#: gui.c:2591
+msgid "Assist..."
+msgstr ""
+
+#: gui.c:2592
+msgid "Quit"
+msgstr "Beenden"
+
+#: gui.c:2605
+msgid "About..."
+msgstr "Über..."
+
+#: gui.c:2641 gui.c:2650
+msgid "Dragons: 0  Cards: 0  Power: 0"
+msgstr "Drachen: 0  Karten: 0  Stärke: 0"
+
+#: gui.c:2659
+msgid "Retreat"
+msgstr "Rückzug"
+
+#: gui.c:2660
+msgid "Announce Fire"
+msgstr "Feuer ansagen"
+
+#: gui.c:2661
+msgid "Announce Earth"
+msgstr "Erde ansagen"
+
+#: gui.c:2662
+msgid "Undo Turn"
+msgstr "Rückgängig"
+
+#: dummy.c:2
+msgid "Hoax"
+msgstr ""
+
+#: dummy.c:3
+msgid "Xelethotiras"
+msgstr ""
+
+#: dummy.c:4
+msgid "Wogarathoras the Gloomy"
+msgstr "Wogarathoras der Düstere"
+
+#: dummy.c:5
+msgid "Athradysas the Seeker"
+msgstr "Athradysas der Suchende"
+
+#: dummy.c:6
+msgid "Ledinemras the Monk"
+msgstr "Ledinemras der Mönch"
+
+#: dummy.c:7
+msgid "Zedemikras the Brain"
+msgstr "Zedemikras das Gehirn"
+
+#: dummy.c:8
+msgid "Ciklarethas the Bitter"
+msgstr "Ciklarethas der Mürrische"
+
+#: dummy.c:9
+msgid "Nirwadas the Traveler"
+msgstr "Nirwadas der Reisende"
+
+#: dummy.c:10
+msgid "Penemikanas the Paranoid"
+msgstr "Penemikanas der Paranoide"
+
+#: dummy.c:11
+msgid "Vetraskedas the Sceptic"
+msgstr "Vetraskedas der Skeptiker"
+
+#: dummy.c:12
+msgid "Helkomedes the Rhetorician"
+msgstr "Helkomedes der Redner"
+
+#: dummy.c:13
+msgid "Redamikanas the Cartographer"
+msgstr "Redamikanas der Kartograph"
+
+#: dummy.c:14 dummy.c:80
+msgid "If you retreat, I attract one additional dragon."
+msgstr "Wenn du dich zurückziehst, gewinne ich 1 zusätzlichen Drachen."
+
+#: dummy.c:15
+msgid "Bethenitana the Storyteller"
+msgstr "Bethenitana die Erzählerin"
+
+#: dummy.c:16
+msgid "If I retreat, you may not attract dragons."
+msgstr "Du darfst keine Drachen gewinnen, wenn ich mich zurückziehe."
+
+#: dummy.c:17
+msgid "Demegodas the Odd"
+msgstr "Demegodas der Kauz"
+
+#: dummy.c:18
+msgid "The values of my support cards double."
+msgstr "Alle Werte meiner Unterstützungen verdoppeln sich."
+
+#: dummy.c:19
+msgid "Thirkomedas the Serene"
+msgstr "Thirkomedas der Heitere"
+
+#: dummy.c:20
+msgid "You may not play leadership/booster/support cards."
+msgstr ""
+"Du darfst keine Anführeraktionen, Verstärkungen und Unterstützungen auslegen."
+
+#: dummy.c:21
+msgid "Genathones the Blind"
+msgstr "Genathones der Blinde"
+
+#: dummy.c:22 dummy.c:412
+msgid "On my turn, I may play one additional support card."
+msgstr "In meinem Zug darf ich 1 zusätzliche Unterstützung auslegen."
+
+#: dummy.c:23
+msgid "Sarogakanas the Ancient"
+msgstr "Sarogakanas der Uralte"
+
+#: dummy.c:24
+msgid "Now I may draw two cards from your hand and discard them."
+msgstr "Jetzt darf ich 2 Karten aus deiner Hand ziehen und abwerfen."
+
+#: dummy.c:25
+msgid "Inscrutable Armor"
+msgstr "Undurchdringliche Rüstung"
+
+#: dummy.c:26
+msgid "Battling Boomerang"
+msgstr "Kämpfender Bumerang"
+
+#: dummy.c:27
+msgid "Tome of Wisdom"
+msgstr "Buch der Weisheit"
+
+#: dummy.c:28
+msgid "Trebuchet of Fear"
+msgstr "Kriegsmaschine der Angst"
+
+#: dummy.c:29
+msgid "Ballista of Confusion"
+msgstr "Schleuder der Verwirrung"
+
+#: dummy.c:30
+msgid "Homing Missiles"
+msgstr "Zielsuchende Geschosse"
+
+#: dummy.c:31
+msgid "Duplicator of Strength"
+msgstr "Trickreicher Stärkedoppler"
+
+#: dummy.c:32 dummy.c:179
+msgid "The Earth value of one of my character cards doubles."
+msgstr "Der Erde-Wert eines meiner Charaktere verdoppelt sich."
+
+#: dummy.c:33
+msgid "Brain Drain"
+msgstr "Tückischer Gedankenblocker"
+
+#: dummy.c:34
+msgid "On your turn, you may not play more than one card."
+msgstr ""
+"Du darfst keine weiteren Karten in deinem Zug auslegen, nachdem du 1 Karte "
+"ausgelegt hast."
+
+#: dummy.c:35
+msgid "Muster Reinforcements"
+msgstr "Sammle neue Anhänger"
+
+#: dummy.c:36
+msgid "Now I may draw five cards."
+msgstr "Jetzt darf ich 5 Karten nachziehen."
+
+#: dummy.c:37
+msgid "Enthrall Opposition"
+msgstr "Banne den Gegne"
+
+#: dummy.c:38
+msgid ""
+"On this turn, your special power texts are ignored.  (This card has no "
+"effect if opposed by Tittertweet or Laughing Gas.)"
+msgstr ""
+"In diesem Zug werden deine Sonderfunktionen ignoriert. (Diese Karte hat "
+"keine Wirkung, wenn du \"Lachgas\" oder \"Zirper\" als aktive Karten "
+"ausliegen hast.)"
+
+#: dummy.c:39
+msgid "Trigger Brainstorm"
+msgstr "Entfache den Gedankensturm"
+
+#: dummy.c:40
+msgid "On this turn, I may play any number of support cards."
+msgstr "In diesem Zug darf ich beliebig viele Unterstützungen auslegen."
+
+#: dummy.c:41
+msgid "Hank Highflyer Hawk"
+msgstr "Hacker Hank"
+
+#: dummy.c:42
+msgid "Your character cards are ignored, except Flit character cards."
+msgstr "Deine Charaktere, mit Ausnahme von Flit-Charakteren, werden ignoriert."
+
+#: dummy.c:43
+msgid "Var-dis-Nar"
+msgstr ""
+
+#: dummy.c:44
+msgid ""
+"I may only play this card if I am attacked by at least 7 total power.  The "
+"contested element of the fight changes between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn ich mit einer Stärke von mindestens "
+"7 angegriffen werde.  Der Kampf wechselt zwischen Erde und Feuer."
+
+#: dummy.c:45
+msgid "Potion of Prodigious Passion"
+msgstr "Trunk der Leidenschaft"
+
+#: dummy.c:46
+msgid "The values of one of my character cards increase to 5."
+msgstr "Die Werte eines meiner Charaktere erhöhen sich auf 5."
+
+#: dummy.c:47
+msgid "Catusan"
+msgstr ""
+
+#: dummy.c:48
+msgid "Vulca"
+msgstr ""
+
+#: dummy.c:49
+msgid "Inferno"
+msgstr ""
+
+#: dummy.c:50
+msgid "Flamebreath the Dazzling"
+msgstr "Flammar der Blendende"
+
+#: dummy.c:51
+msgid "Scorch the Inflammable"
+msgstr "Sengar der Glutvolle"
+
+#: dummy.c:52
+msgid "Lavar the Powerful"
+msgstr "Lavar der Mächtige"
+
+#: dummy.c:53
+msgid "Volca"
+msgstr ""
+
+#: dummy.c:54
+msgid "Blaze"
+msgstr "Magma"
+
+#: dummy.c:55
+msgid "Furnace"
+msgstr "Glutar"
+
+#: dummy.c:56
+msgid "Spark"
+msgstr "Etnar"
+
+#: dummy.c:57
+msgid "Ignite"
+msgstr "Kratar"
+
+#: dummy.c:58
+msgid "Sear"
+msgstr "Brandar"
+
+#: dummy.c:59
+msgid "Torch"
+msgstr "Kandar"
+
+#: dummy.c:60
+msgid "Shimmer"
+msgstr "Shimmar"
+
+#: dummy.c:61
+msgid "Glimmer"
+msgstr "Glimma"
+
+#: dummy.c:62
+msgid "Cinder"
+msgstr "Asha"
+
+#: dummy.c:63 dummy.c:254
+msgid "Now I may discard one of your active booster/support cards."
+msgstr ""
+"Jetzt darf ich 1 deiner aktiven Verstärkungen oder Unterstützungen abwerfen."
+
+#: dummy.c:64
+msgid "Flare"
+msgstr "Flacka"
+
+#: dummy.c:65
+msgid "At the end of my turn, I may draw two additional cards."
+msgstr "Am Ende meines Zuges darf ich 2 zusätzliche Karten nachziehen."
+
+#: dummy.c:66
+msgid "Ember"
+msgstr "Zundar"
+
+#: dummy.c:67
+msgid "You may not play character cards that do not have special power text."
+msgstr "Du darfst keine Charaktere ohne Sonderfunktionen auslegen."
+
+#: dummy.c:68
+msgid "Fireblast"
+msgstr "Feuerstoß"
+
+#: dummy.c:69
+msgid "Infernal Armor"
+msgstr "Höllenrüstung"
+
+#: dummy.c:70
+msgid "Elemental Enchantment"
+msgstr "Urgewaltiger Zauber"
+
+#: dummy.c:71
+msgid "My total power increases to 6."
+msgstr "Meine Stärke erhöht sich auf 6."
+
+#: dummy.c:72
+msgid "Volcanic Gauntlets"
+msgstr "Vulkanhandschuhe"
+
+#: dummy.c:73 dummy.c:414
+msgid "The Fire value of one of my character cards doubles."
+msgstr "Der Feuer-Wert eines meiner Charaktere verdoppelt sich."
+
+#: dummy.c:74
+msgid "Lightning Bolts"
+msgstr "Blitzschläge"
+
+#: dummy.c:75
+msgid "Flickering Fires"
+msgstr "Feuerzauber"
+
+#: dummy.c:76
+msgid "You may not play leadership cards."
+msgstr "Du darfst keine Anführeraktionen auslegen."
+
+#: dummy.c:77
+msgid "Wall of Fire"
+msgstr "Feuerwall"
+
+#: dummy.c:78
+msgid "You may not take cards from your draw deck."
+msgstr "Du darfst keine Karten nachziehen."
+
+#: dummy.c:79
+msgid "Fearsome Spirits"
+msgstr "Geisterbilder"
+
+#: dummy.c:81
+msgid "Summon Sorcerer"
+msgstr "Rufe den Dunklen Meister"
+
+#: dummy.c:82
+msgid "Now I may retrieve one of my active cards into my hand."
+msgstr "Jetzt darf ich 1 meiner aktiven Karten auf meine Hand zurücknehmen."
+
+#: dummy.c:83
+msgid "Charm Holy Dragon"
+msgstr "Bezaubere den Heiligen Drachen"
+
+#: dummy.c:84
+msgid ""
+"Now I may discard cards with at total printed value of at least 8 Fire from "
+"my hand to attract one dragon."
+msgstr ""
+"Jetzt darf ich Karten mit einer Stärke von mindestens 8 Feuer aus meiner "
+"Hand abwerfen, um 1 Drachen zu gewinnen."
+
+#: dummy.c:85
+msgid "Cast Cataclysm"
+msgstr "Beschwöre die Feuersbrunst die Feuersbrunst"
+
+#: dummy.c:86
+msgid "Now I may discard all of your active support cards."
+msgstr "Jetzt darf ich alle deine aktiven Unterstützungen abwerfen."
+
+#: dummy.c:87
+msgid "Aaralia-Aqua Secunda"
+msgstr ""
+
+#: dummy.c:88
+msgid "Pandemonium"
+msgstr "Höllenlärm"
+
+#: dummy.c:89
+msgid "You may not play support cards."
+msgstr "Du darfst keine Unterstützungen auslegen."
+
+#: dummy.c:90
+msgid "Heroine of the Great Plains"
+msgstr "Heldin der Großen Ebenen"
+
+#: dummy.c:91
+msgid "Zig-nur-Don"
+msgstr ""
+
+#: dummy.c:92
+msgid ""
+"I may only play this card if I am attacked by at least 5 Earth.  The "
+"contested element of the fight changes to Fire."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn ich mit einer Stärke von mindestens "
+"5 Erde angegriffen werde.  Der Kampf wechselt nach Feuer."
+
+#: dummy.c:93
+msgid "Mimix"
+msgstr ""
+
+#: dummy.c:94
+msgid "Blue Radiance"
+msgstr "Blaue Aura"
+
+#: dummy.c:95
+msgid "Virgin of Pure Fire"
+msgstr "Jungfrau des Reinen Feuers"
+
+#: dummy.c:96
+msgid "Virgin of Pure Earth"
+msgstr "Jungfrau der Reinen Erde"
+
+#: dummy.c:97
+msgid "Heroine of the High Flames"
+msgstr "Heldin der Hohen Flammen"
+
+#: dummy.c:98
+msgid "Spirit of the Night"
+msgstr "Bewahrerin der Nacht"
+
+#: dummy.c:99
+msgid "Spirit of the Light"
+msgstr "Bewahrerin des Lichts"
+
+#: dummy.c:100
+msgid "Amazon Leaping High"
+msgstr "Amazone der Hohen Sprünge"
+
+#: dummy.c:101
+msgid "Amazon Leaping Far"
+msgstr "Amazone der Weiten Sprünge"
+
+#: dummy.c:102
+msgid "Dancer of Dawn"
+msgstr "Tänzerin der Morgenröte"
+
+#: dummy.c:103
+msgid "Dancer of Dusk"
+msgstr "Tänzerin der Abenddämmerung"
+
+#: dummy.c:104
+msgid "Wild Gazelle"
+msgstr "Hüterin der Gazelle"
+
+#: dummy.c:105
+msgid "Wild Antelope"
+msgstr "Hüterin der Antilope"
+
+#: dummy.c:106
+msgid "Young Bear"
+msgstr "Junge Bärin"
+
+#: dummy.c:107
+msgid "Young Fox"
+msgstr "Junge Füchsin"
+
+#: dummy.c:108
+msgid "Shaman of the Holy Sacrifice"
+msgstr "Schamane des Heiligen Opfers"
+
+#: dummy.c:109
+msgid ""
+"At the end of my turn, I may reveal (up to) three cards from the top of my "
+"draw deck, then discard one of them and take the others into my hand."
+msgstr ""
+"Am Ende meines Zuges darf ich (bis zu) 3 Karten von meinem Nachziehstapel "
+"aufdecken. Von diesen werfe ich 1 Karte ab und nehme die anderen auf meine "
+"Hand."
+
+#: dummy.c:110
+msgid "Shaman of the Deeds to Come"
+msgstr "Schamane der künftigen Heldentaten"
+
+#: dummy.c:111
+msgid ""
+"At the end of my turn, I may draw (up to) three additional cards and then "
+"shuffle any two cards from my hand into my draw deck."
+msgstr ""
+"Am Ende meines Zuges darf ich (bis zu) 3 zusätzliche Karten von meinem "
+"Nachziehstapel nachziehen. Danach mische ich 2 beliebige Karten aus meiner "
+"Hand in meinen Nachziehstapel."
+
+#: dummy.c:112
+msgid "Shaman of the Here and Now"
+msgstr "Schamane des Hier und Jetzt"
+
+#: dummy.c:113
+msgid ""
+"Immediately after my Booster/Support phase, I search through my draw deck "
+"and may select one card, reveal it to you, and take it into my hand. Then I "
+"reshuffle."
+msgstr ""
+"Sofort nach meiner Verstärkungs- und Unterstützungsphase darf ich aus meinem "
+"Nachziehstapel 1 Karte auswählen, dir zeigen und auf meine Hand nehmen."
+"Danach mische ich meinen Nachziehstapel."
+
+#: dummy.c:114
+msgid "Shaman of the Afterlife"
+msgstr "Schamane des Lebens nach dem Tod"
+
+#: dummy.c:115
+msgid ""
+"Immediately after my Booster/Support phase, I shuffle my discard pile face "
+"down and may draw two cards from it into my hand."
+msgstr ""
+"Sofort nach meiner Verstärkungs- und Unterstützungsphase mische ich verdeckt "
+"meinen Abwurfstapel und darf daraus 2 Karten ziehen, die ich auf meine Hand "
+"nehme."
+
+#: dummy.c:116
+msgid "Sun Setting"
+msgstr "Untergehende Sonne"
+
+#: dummy.c:117
+msgid "Moon Rising"
+msgstr "Aufgehender Mond"
+
+#: dummy.c:118
+msgid "Stars Shining"
+msgstr "Leuchtender Stern"
+
+#: dummy.c:119
+msgid "Hail of Arrows"
+msgstr "Glühender Pfeilhagel"
+
+#: dummy.c:120
+msgid "Whirling Hatchet"
+msgstr "Wirbelndes Kriegsbeil"
+
+#: dummy.c:121
+msgid "Menacing Wardance"
+msgstr "Bedrohlicher Kriegstanz"
+
+#: dummy.c:122
+msgid "Hypnotic Rattle"
+msgstr "Hypnotisierendes Gerassel"
+
+#: dummy.c:123
+msgid "You may not play booster cards."
+msgstr "Du darfst keine Verstärkungen auslegen"
+
+#: dummy.c:124
+msgid "Call Spirit of the Battlefield"
+msgstr "Rufe den Geist des Schlachtfeldes"
+
+#: dummy.c:125
+msgid "Now I may retrieve any one card from my combat area into my hand."
+msgstr ""
+"Jetzt darf ich 1 beliebige Karte aus meinem Kampfbereich auf meine Hand "
+"zurücknehmen."
+
+#: dummy.c:126
+msgid "Call Spirit of the Underworld"
+msgstr "Rufe den Geist der Unterwelt"
+
+#: dummy.c:127
+msgid ""
+"Now I search through my discard pile and may select one card, reveal it to "
+"you, and take it into my hand."
+msgstr ""
+"Jetzt darf ich aus meinem Abwurfstapel 1 Karte auswählen, dir zeigen und auf "
+"meine Hand nehmen."
+
+#: dummy.c:128
+msgid "Pulsating Shockwave"
+msgstr "Pulsierende Schockwelle"
+
+#: dummy.c:129
+msgid "NoProblem"
+msgstr "Null Bock"
+
+#: dummy.c:130
+msgid "Neth-sur-Pot"
+msgstr ""
+
+#: dummy.c:131
+msgid ""
+"I may only play this card if you have at least three active character/"
+"booster/support cards.  The contested element of the fight changes between "
+"Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn du mindestens 3 aktive Karten in "
+"deinen Kampf- und Unterstützungsbereichen ausliegen hast. Der Kampf wechselt "
+"zwischen Erde und Feuer"
+
+#: dummy.c:132
+msgid "Cardus Nikkus"
+msgstr ""
+
+#: dummy.c:133
+msgid "Now I may draw one card from your hand and discard it."
+msgstr "Jetzt darf ich 1 Karte aus deiner Hand ziehen und abwerfen."
+
+#: dummy.c:134
+msgid "Flit"
+msgstr ""
+
+#: dummy.c:135
+msgid "Falc"
+msgstr "Falk"
+
+#: dummy.c:136
+msgid "Wing Commander Razorfeather"
+msgstr "Geschwaderführer Säbelfeder"
+
+#: dummy.c:137
+msgid "Squadron Leader Squeak"
+msgstr "Staffelführer Schwinge"
+
+#: dummy.c:138
+msgid "Flight Leader Squawk"
+msgstr "Rottenführer Kralle"
+
+#: dummy.c:139
+msgid "Peckswift"
+msgstr "Flatter"
+
+#: dummy.c:140
+msgid "Steepstoop"
+msgstr "Gleiter"
+
+#: dummy.c:141
+msgid "Highchirp"
+msgstr "Pluster"
+
+#: dummy.c:142
+msgid ""
+"If you have more than one active character card, I may now discard one of "
+"them."
+msgstr ""
+"Wenn du mehr als 1 aktiven Charakter ausliegen hast, darf ich 1 davon "
+"abwerfen."
+
+#: dummy.c:143
+msgid "Tittertweet"
+msgstr "Zirper"
+
+#: dummy.c:144
+msgid "Your special power texts are ignored, except on Flit character cards."
+msgstr ""
+"Deine Sonderfunktionen, mit Ausnahme derjenigen auf Flit-Charakteren, werden "
+"ignoriert."
+
+#: dummy.c:145
+msgid "Flitterflutter"
+msgstr "Zwitscher"
+
+#: dummy.c:146
+msgid "Your support cards are ignored."
+msgstr "Deine Unterstützungen werden ignoriert."
+
+#: dummy.c:147
+msgid "Trillilling"
+msgstr "Triller"
+
+#: dummy.c:148
+msgid "Your booster cards are ignored."
+msgstr "Deine Verstärkungen werden ignoriert."
+
+#: dummy.c:149
+msgid "Cheepchirrup"
+msgstr "Plärrer"
+
+#: dummy.c:150
+msgid ""
+"On your turn, you may not play more than one card into your combat area."
+msgstr ""
+"Du darfst keine weiteren Karten in deinem Zug in deinem Kampfbereich "
+"auslegen,nachdem du dort 1 Karte ausgelegt hast."
+
+#: dummy.c:151
+msgid "Carl Kamikaze Crow"
+msgstr "Kami Kaze"
+
+#: dummy.c:152
+msgid "The values of my booster cards double."
+msgstr "Alle Werte meiner Verstärkungen verdoppeln sich."
+
+#: dummy.c:153
+msgid "Proud Phoenix Phil"
+msgstr "Stolzhaupt Phönix"
+
+#: dummy.c:154
+msgid "Launch Burning Earth"
+msgstr "Abwurf Gluterde"
+
+#: dummy.c:155
+msgid "Launch Rain of Fire"
+msgstr "Abwurf Feuerregen"
+
+#: dummy.c:156
+msgid "Launch Locust Paratroopers"
+msgstr "Abwurf Heuschreckenschwarm"
+
+#: dummy.c:157
+msgid "Launch Dazzling Flares"
+msgstr "Abwurf Brandfackeln"
+
+#: dummy.c:158
+msgid "Launch Boiling Oil"
+msgstr "Abwurf Siedeöl"
+
+#: dummy.c:159
+msgid "Launch Fire Flash"
+msgstr "Abwurf Feuerblitze"
+
+#: dummy.c:160
+msgid "Launch Rockdrop"
+msgstr "Abwurf Felsbrocken"
+
+#: dummy.c:161
+msgid "Launch Flaming Dust"
+msgstr "Abwurf Flammenstaub"
+
+#: dummy.c:162
+msgid "Launch Slippery Slime"
+msgstr "Abwurf Schleimsuppe"
+
+#: dummy.c:163
+msgid "Launch Itching Bugs"
+msgstr "Abwurf Juckkäfer"
+
+#: dummy.c:164
+msgid "Launch Sloth Gas"
+msgstr "Abwurf Faulgas"
+
+#: dummy.c:165 dummy.c:228
+msgid "If I retreat, you attract one fewer dragon."
+msgstr "Wenn ich mich zurückziehe, gewinnst du 1 Drachen weniger."
+
+#: dummy.c:166
+msgid "Distract Holy Dragon"
+msgstr "Verwirre den Heiligen Drachen"
+
+#: dummy.c:167
+msgid "If I retreat now, you attract no more than one dragon."
+msgstr "Wenn ich mich jetzt zurückziehe, gewinnst du höchstens 1 Drachen."
+
+#: dummy.c:168
+msgid "Beguile Holy Dragon"
+msgstr "Täusche den Heiligen Drachen"
+
+#: dummy.c:169
+msgid ""
+"Now I may discard three character cards from my hand to attract one dragon."
+msgstr ""
+"Jetzt darf ich 3 Charaktere aus meiner Hand abwerfen, um 1 Drachen zu "
+"gewinnen."
+
+#: dummy.c:170
+msgid "Commence Mega Launch"
+msgstr "Starte Großangriff"
+
+#: dummy.c:171
+msgid "On this turn, I may play any number of booster cards."
+msgstr "In diesem Zug darf ich beliebig viele Verstärkungen auslegen."
+
+#: dummy.c:172
+msgid "Earthwater"
+msgstr "Erdwasser"
+
+#: dummy.c:173
+msgid "My total power in Earth increases to 7."
+msgstr "Meine Stärke in Erde erhöht sich auf 7."
+
+#: dummy.c:174
+msgid "Fel-nar-Gan"
+msgstr ""
+
+#: dummy.c:175
+msgid ""
+"I may only play this card if I have no cards in my combat and support "
+"areas.  The contested element of the fight changes between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn ich keine Karten in meinen Kampf- "
+"und Unterstützungsbereichen ausliegen habe. Der Kampf wechselt zwischen Erde "
+"und Feuer."
+
+#: dummy.c:176
+msgid "Bashdin"
+msgstr ""
+
+#: dummy.c:177
+msgid "Now I may force you to discard two cards from your hand."
+msgstr ""
+"Jetzt darf ich bestimmen, dass du 2 Karten aus deiner Hand abwerfen musst."
+
+#: dummy.c:178
+msgid "Titanic Gauntlets"
+msgstr "Titanhandschuhe"
+
+#: dummy.c:180
+msgid "Khind"
+msgstr ""
+
+#: dummy.c:181
+msgid "PitPan"
+msgstr "Pit Pan"
+
+#: dummy.c:182
+msgid "CoolCat"
+msgstr "Cool Cat"
+
+#: dummy.c:183
+msgid "The odd printed values of your character cards reduce to 0."
+msgstr "Die aufgedruckten ungeraden Werte deiner Charaktere zählen 0."
+
+#: dummy.c:184
+msgid "CoolCop"
+msgstr "Cool Cop"
+
+#: dummy.c:185
+msgid "The even printed values of your character cards reduce to 0."
+msgstr "Die aufgedruckten geraden Werte deiner Charaktere zählen 0."
+
+#: dummy.c:186
+msgid "CoolKid"
+msgstr "Cool Kid"
+
+#: dummy.c:187
+msgid "The odd printed values of your booster/support cards reduce to 0."
+msgstr ""
+"Die aufgedruckten ungeraden Werte deiner Verstärkungen und Unterstützungen "
+"zählen 0."
+
+#: dummy.c:188
+msgid "CoolCub"
+msgstr "Cool Cub"
+
+#: dummy.c:189
+msgid "The even printed values of your booster/support cards reduce to 0."
+msgstr ""
+"Die aufgedruckten geraden Werte deiner Verstärkungen und Unterstützungen "
+"zählen 0."
+
+#: dummy.c:190
+msgid "TopGun"
+msgstr "Top Gun"
+
+#: dummy.c:191 dummy.c:218
+msgid "At the end of my turn, I may draw one additional card."
+msgstr "Am Ende meines Zuges darf ich 1 zusätzliche Karte nachziehen."
+
+#: dummy.c:192
+msgid "TopDog"
+msgstr "Top Dog"
+
+#: dummy.c:193
+msgid ""
+"On my turn, I may discard one of your active cards that has an icon, except "
+"your last remaining active character card and PROTECTED cards."
+msgstr ""
+"In meinem Zug darf ich 1 deiner aktiven Karten abwerfen, die ein Symbol hat, "
+"mit Ausnahme deines letzten Charakters und Karten mit dem GESCHÜTZT-Symbol."
+
+#: dummy.c:194
+msgid "TopNotch"
+msgstr "Top Star"
+
+#: dummy.c:195
+msgid "On my turn, I may discard one of your active booster/support cards."
+msgstr ""
+"In meinem Zug darf ich 1 deiner aktiven Verstärkungen oder Unterstützungen "
+"abwerfen."
+
+#: dummy.c:196
+msgid "TopBanana"
+msgstr "Top Banana"
+
+#: dummy.c:197
+msgid ""
+"At the end of my turn, I may force you to discard one card from your hand."
+msgstr ""
+"Am Ende meines Zuges darf ich bestimmen, dass du 1 Karte aus deiner Hand "
+"abwerfen musst."
+
+#: dummy.c:198
+msgid "TopShot"
+msgstr "Top Shot"
+
+#: dummy.c:199
+msgid "At the end of my turn, I may discard the top card from your draw deck."
+msgstr ""
+"Am Ende meines Zuges darf ich die oberste Karte deines Nachziehstapels "
+"abwerfen."
+
+#: dummy.c:200
+msgid "FunFair"
+msgstr "Fun Fair"
+
+#: dummy.c:201
+msgid "FunFlop"
+msgstr "Fun Flop"
+
+#: dummy.c:202
+msgid "FunFlap"
+msgstr "Fun Flap"
+
+#: dummy.c:203
+msgid "FunFlip"
+msgstr "Fun Flip"
+
+#: dummy.c:204
+msgid "FunFun"
+msgstr "Fun Fun"
+
+#: dummy.c:205
+msgid "The values of my character cards double."
+msgstr "Alle Werte meiner Charaktere verdoppeln sich."
+
+#: dummy.c:206
+msgid "NoNo"
+msgstr "Null Null"
+
+#: dummy.c:207
+msgid "NoStopping"
+msgstr "Null Diät"
+
+#: dummy.c:208
+msgid "NoStyle"
+msgstr "Null Stil"
+
+#: dummy.c:209
+msgid "NoBrains"
+msgstr "Null Hirn"
+
+#: dummy.c:210
+msgid "NoClue"
+msgstr "Null Ahnung"
+
+#: dummy.c:211
+msgid "NoClass"
+msgstr "Null Chance"
+
+#: dummy.c:212
+msgid "NoRespect"
+msgstr "Null Respekt"
+
+#: dummy.c:213
+msgid "Gluing Dust"
+msgstr "Klebriger Staub"
+
+#: dummy.c:214
+msgid "On your turn, you may not take more than one card from your draw deck."
+msgstr ""
+"Du darfst keine weitere Karte in deinem Zug nachziehen, nachdem du 1 Karte "
+"nachgezogen hast."
+
+#: dummy.c:215
+msgid "Laughing Gas"
+msgstr "Lachgas"
+
+#: dummy.c:216
+msgid ""
+"Your special power texts are ignored, except on Flit character cards. (This "
+"card has no effect if opposed by Laughing Gas.)"
+msgstr ""
+"Deine Sonderfunktionen werden ignoriert, außer denen auf \"Flit\"-"
+"Charakteren. (Diese Karte hat keine Wirkung, wenn du \"Lachgas\" als aktive "
+"Karte ausliegen hast.)"
+
+#: dummy.c:217
+msgid "Oath of Khindship"
+msgstr "Khind-Brüderschaft"
+
+#: dummy.c:219
+msgid "Blow Whistle of Friendship"
+msgstr "Pfeif das Lied der Freundschaft"
+
+#: dummy.c:220
+msgid ""
+"Now I search through my draw deck and may select one card, reveal it to you, "
+"and take it into my hand.  Then I reshuffle."
+msgstr ""
+"Jetzt darf ich aus meinem Nachziehstapel 1 Karte auswählen, dir zeigen und "
+"auf meine Hand nehmen. Danach mische ich meinen Nachziehstapel."
+
+#: dummy.c:221
+msgid "Open Lucky Bag of Life"
+msgstr "Öffne die Wundertüte des Lebens"
+
+#: dummy.c:222
+msgid ""
+"Now I shuffle my discard pile face down and may draw three cards from it "
+"into my hand."
+msgstr ""
+"Jetzt mische ich verdeckt meinen Abwurfstapel und darf daraus 3 Karten "
+"ziehen, die ich auf meine Hand nehme."
+
+#: dummy.c:223
+msgid "Drown Resistance"
+msgstr "Ertränke den Widerstand"
+
+#: dummy.c:224
+msgid ""
+"Now I may discard all active cards from your combat area, except one active "
+"character card and any PROTECTED cards."
+msgstr ""
+"Jetzt darf ich alle aktiven Karten aus deinem Kampfbereich abwerfen, außer 1 "
+"aktiven Charakter und Karten, die ein GESCHÜTZT-Symbol haben."
+
+#: dummy.c:225
+msgid "Ketharkopas the Astronomer"
+msgstr "Ketharkopas der Astronom"
+
+#: dummy.c:226
+msgid ""
+"If my turn is about to end with me holding fewer than nine cards in my hand, "
+"I may draw to nine cards."
+msgstr ""
+"Wenn ich meinen Zug mit weniger als 9 Karten auf meiner Hand beende, darf "
+"ich bis auf 9 Karten nachziehen."
+
+#: dummy.c:227
+msgid "Fearsome Chant"
+msgstr "Brennende Raserei"
+
+#: dummy.c:229
+msgid "Den-bal-Ton"
+msgstr ""
+
+#: dummy.c:230
+msgid ""
+"I may only play this card if you have at least one dragon on your side.  The "
+"contested element of the fight changes between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn du mindestens 1 Drachen auf deiner "
+"Seite hast. Der Kampf wechselt zwischen Erde und Feuer."
+
+#: dummy.c:231
+msgid "Terrah"
+msgstr ""
+
+#: dummy.c:232
+msgid "Tecton Earthquaker"
+msgstr "Tekton Erdbeber"
+
+#: dummy.c:233
+msgid "Megalit Mountainshaker"
+msgstr "Megalit Bergerschütterer"
+
+#: dummy.c:234
+msgid "Roomban Rockmaster"
+msgstr "Romban Felsenmeister"
+
+#: dummy.c:235
+msgid "Suranom Stormbringer"
+msgstr "Suranom Strumbringer"
+
+#: dummy.c:236
+msgid "Gravitos Greatpower"
+msgstr "Gravitos Kraftstrotzer"
+
+#: dummy.c:237
+msgid "Flamitos"
+msgstr ""
+
+#: dummy.c:238
+msgid "Terraton"
+msgstr ""
+
+#: dummy.c:239
+msgid "Helitos"
+msgstr ""
+
+#: dummy.c:240
+msgid "Sonatos"
+msgstr ""
+
+#: dummy.c:241
+msgid "Rocara"
+msgstr ""
+
+#: dummy.c:242
+msgid "Torana"
+msgstr ""
+
+#: dummy.c:243
+msgid "Ferro Fos"
+msgstr ""
+
+#: dummy.c:244
+msgid "You may not play cards that have special power text."
+msgstr "Du darfst keine Karten auslegen, die Sonderfunktionen haben."
+
+#: dummy.c:245
+msgid "Kabu Kat"
+msgstr ""
+
+#: dummy.c:246
+msgid "On your turn, you must play a support card, or retreat."
+msgstr ""
+"In deinem Zug musst du eine Unterstützung auslegen oder dich zurückziehen."
+
+#: dummy.c:247
+msgid "Baku But"
+msgstr ""
+
+#: dummy.c:248
+msgid "On your turn, you must play a booster card, or retreat."
+msgstr ""
+"In deinem Zug musst du eine Verstärkung auslegen oder dich zurückziehen."
+
+#: dummy.c:249
+msgid "Corono Cos"
+msgstr "Korono Kos"
+
+#: dummy.c:250
+msgid "You may not play cards that do not have special power text."
+msgstr "Du darfst keine Karten ohne Sonderfunktion auslegen."
+
+#: dummy.c:251
+msgid "Silento Sol"
+msgstr ""
+
+#: dummy.c:252
+msgid "Earthblast"
+msgstr "Erdrutsch"
+
+#: dummy.c:253
+msgid "Earthtremor"
+msgstr "Erdbeben"
+
+#: dummy.c:255
+msgid "Seismic Drill"
+msgstr "Unaufhaltsamer Erdborer"
+
+#: dummy.c:256
+msgid "Crashing Thunder Storm"
+msgstr "Krachender Gewittersturm"
+
+#: dummy.c:257 dummy.c:259 dummy.c:261 dummy.c:372
+msgid ""
+"If I have more than one active Storm support card at the beginning of my "
+"turn, I immediately attract one dragon (in total)."
+msgstr ""
+"Wenn ich zu Beginn meines Zuges mehr als 1 aktive Sturm-Unterstützung habe, "
+"gewinne ich sofort (insgesamt) 1 Drachen."
+
+#: dummy.c:258
+msgid "Swirling Snow Storm"
+msgstr "Wirbelnder Schneesturm"
+
+#: dummy.c:260
+msgid "Lashing Sand Storm"
+msgstr "Peitschender Sandsturm"
+
+#: dummy.c:262
+msgid "Cloying Mud"
+msgstr "Stinkender Morast"
+
+#: dummy.c:263
+msgid ""
+"You may not play character cards that have a printed value higher than 4."
+msgstr ""
+"Du darfst keine Charaktere auslegen, die einen aufgedruckten Wert höher als "
+"4 haben."
+
+#: dummy.c:264
+msgid "Impenetrable Fog"
+msgstr "Undurchdringlicher Nebel"
+
+#: dummy.c:265
+msgid "Your icons are ignored, except STOP and PROTECTED."
+msgstr ""
+"Deine Symbole werden ignoriert, mit Ausnahme von STOPP- und GESCHÜTZT-"
+"Symbolen."
+
+#: dummy.c:266
+msgid "Quivering Quicksand"
+msgstr "Undurchquerbarer Treibsand"
+
+#: dummy.c:267
+msgid ""
+"If you have four or more cards in your hand, you may not take further cards "
+"into your hand."
+msgstr ""
+"Du darfst keine weiteren Karten auf deine Hand nehmen, wenn du 4 oder mehr "
+"Karten auf deiner Hand hast."
+
+#: dummy.c:268
+msgid "Provoke Earthquake"
+msgstr "Erzeuge ein Erdbeben"
+
+#: dummy.c:269
+msgid ""
+"Now I may discard all cards from your combat area, except active PROTECTED "
+"cards."
+msgstr ""
+"Jetzt darf ich alle Karten aus deinem Kampfbereich abwerfen, mit Ausnahme "
+"aktiver Karten, die ein GESCHÜTZT-Symbol haben."
+
+#: dummy.c:270
+msgid "Impress Holy Dragon"
+msgstr "Imponiere dem Heiligen Drachen"
+
+#: dummy.c:271
+msgid ""
+"Now I may discard cards with a total printed value of at least 8 Earth from "
+"my hand to attract one dragon."
+msgstr ""
+"Jetzt darf ich Karten mit einer Stärke von mindestens 8 Erde aus meiner Hand "
+"abwerfen, um 1 Drachen zu gewinnen."
+
+#: dummy.c:272
+msgid "Mad Mike Magpie"
+msgstr "Mad Mike"
+
+#: dummy.c:273
+msgid ""
+"Your cards with icons are ignored, except Flit character cards and PROTECTED "
+"cards."
+msgstr ""
+"Deine Karten mit Symbolen werden ignoriert, mit Ausnahme von Flit-"
+"Charakteren und Karten mit dem GESCHÜTZT-Symbol."
+
+#: dummy.c:274
+msgid "Ras-mus-Pan"
+msgstr ""
+
+#: dummy.c:275
+msgid ""
+"I may only play this card if I am attacked by at least 5 Fire.  The "
+"contested element of the fight changes to Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn ich mit einer Stärke von mindestens "
+"5 Feuer angegriffen werde. Der Kampf wechselt nach Erde."
+
+#: dummy.c:276
+msgid "Caterpillar Eartheroder"
+msgstr "Erdaushöhler-Raupe"
+
+#: dummy.c:277
+msgid ""
+"By the end of your Booster/Support phase, you must discard cards with a "
+"total printed value of at least 3 Earth from your hand, or retreat."
+msgstr ""
+"Bis zum Ende deiner Verstärkungs- und Unterstützungsphase musst du Karten "
+"mit einer aufgedruckten Stärke von mindestens 3 Erde aus deiner Hand "
+"abwerfen oder dich zurückziehen."
+
+#: dummy.c:278
+msgid "Flash the Incendiary"
+msgstr "Blizzar der Brandstifter"
+
+#: dummy.c:279
+msgid "Pillar"
+msgstr ""
+
+#: dummy.c:280
+msgid "Fucius Con"
+msgstr ""
+
+#: dummy.c:281
+msgid "Primus Magicus"
+msgstr ""
+
+#: dummy.c:282
+msgid "Devius Maximus"
+msgstr ""
+
+#: dummy.c:283
+msgid "Colossus Gigantus"
+msgstr ""
+
+#: dummy.c:284
+msgid "Bigus Musselus"
+msgstr "Grossus Musculus"
+
+#: dummy.c:285
+msgid "Smartia Pantia"
+msgstr ""
+
+#: dummy.c:286
+msgid "Speedius Unnecessarius"
+msgstr "Rasantus Unnoeticus"
+
+#: dummy.c:287
+msgid "Lonus Mightius"
+msgstr "Lonus Maechticus"
+
+#: dummy.c:288
+msgid "Halitosus Teriblus"
+msgstr ""
+
+#: dummy.c:289
+msgid "Bodius Maloderus"
+msgstr ""
+
+#: dummy.c:290
+msgid "Introvertus Completus"
+msgstr ""
+
+#: dummy.c:291
+msgid "Gulpus Permanentus"
+msgstr ""
+
+#: dummy.c:292
+msgid "On my turn, I may play one additional booster card."
+msgstr "In meinem Zug darf ich 1 zusätzliche Verstärkung auslegen."
+
+#: dummy.c:293
+msgid "Gloria Gracia"
+msgstr ""
+
+#: dummy.c:294
+msgid ""
+"Now I may retrieve one card (not this card) from my combat area into my hand."
+msgstr ""
+
+#: dummy.c:295
+msgid "Crysalus Frendus"
+msgstr ""
+
+#: dummy.c:296
+msgid "The effect of one of my Caterpillar booster cards doubles."
+msgstr "Die Wirkung einer meiner Raupen-Verstärkungen verdoppelt sich."
+
+#: dummy.c:297
+msgid "Bottelus Emptius"
+msgstr "Kalebassus Leerus"
+
+#: dummy.c:298
+msgid "You may not take further cards into your hand."
+msgstr "Du darfst keine weiteren Karten auf deine Hand nehmen."
+
+#: dummy.c:299
+msgid "Caterpillar Fireeater"
+msgstr "Feuerfresser Raupe"
+
+#: dummy.c:300
+msgid ""
+"By the end of your Booster/Support phase, you must discard cards with a "
+"total printed value of at least 3 Fire from your hand, or retreat."
+msgstr ""
+"Bis zum Ende deiner Verstärkungs- und Unterstützungsphase musst du Karten "
+"mit einer aufgedruckten Stärke von mindestens 3 Erde aus deiner Hand "
+"abwerfen oder dich zurückziehen."
+
+#: dummy.c:301
+msgid "Caterpillar Watertamer"
+msgstr "Wasserzähmer Raupe"
+
+#: dummy.c:302
+msgid ""
+"By the end of your Booster/Support phase, you must discard cards with a "
+"total printed value of at least 2 Fire and 2 Earth (on different cards) from "
+"your hand, or retreat."
+msgstr ""
+"Bis zum Ende deiner Verstärkungs- und Unterstützungsphase musst du Karten "
+"mit einer aufgedruckten Stärke von mindestens 2 Feuer und 2 Erde (separate "
+"Karten) aus deiner Hand abwerfen oder dich zurückziehen."
+
+#: dummy.c:303
+msgid "Caterpillar Lightseeker"
+msgstr "Lichtsucher Raupe"
+
+#: dummy.c:304
+msgid ""
+"By the end of your Booster/Support phase, you must discard cards with a "
+"total printed value of at least 5 Fire or 5 Earth from your hand, or retreat."
+msgstr ""
+"Bis zum Ende deiner Verstärkungs- und Unterstützungsphase musst du Karten "
+"mit einer aufgedruckten Stärke von mindestens 5 Feuer oder 5 Erde aus deiner "
+"Hand abwerfen oder dich zurückziehen."
+
+#: dummy.c:305
+msgid "Potion of Cosmic Power"
+msgstr "Trunk der kosmischen Kraft"
+
+#: dummy.c:306
+msgid "The values of one of my character cards double."
+msgstr "Die Werte eines meiner Charaktere verdoppeln sich."
+
+#: dummy.c:307
+msgid "Potion of Conjoining"
+msgstr "Trunk der Vereinigung"
+
+#: dummy.c:308
+msgid ""
+"The values of one of my character cards increase to the sum of its printed "
+"Fire value + its printed Earth value."
+msgstr ""
+"Die Werte eines meiner Charaktere erhöhen sich auf die Summer der "
+"aufgedruckten Erde- und Feuer-Werte."
+
+#: dummy.c:309
+msgid "Potion of Mutation"
+msgstr "Trunk der Verwandlung"
+
+#: dummy.c:310
+msgid ""
+"The values of one of my character cards increase to the higher of its "
+"printed Fire value or its printed Earth value."
+msgstr ""
+"Die Werte eines meiner Charaktere erhöhen sich auf den höheren der "
+"aufgedruckten Erde- und Feuerwerte."
+
+#: dummy.c:311
+msgid "Potion of Sparkling Fire"
+msgstr "Trunk des Feuers"
+
+#: dummy.c:312
+msgid "The Fire value of one of my character cards increases to 6."
+msgstr "Der Feuer-Wert eines meiner Charaktere erhöht sich auf 6."
+
+#: dummy.c:313
+msgid "Potion of Trembling Earth"
+msgstr "Trunk der Erde"
+
+#: dummy.c:314
+msgid "The Earth value of one of my character cards increases to 6."
+msgstr "Der Erde-Wert eines meiner Charaktere erhöht sich auf 6."
+
+#: dummy.c:315
+msgid "Butterfly Scout"
+msgstr "Späher-Falter"
+
+#: dummy.c:316 dummy.c:320
+msgid "Now you disclose your hand."
+msgstr "Jetzt musst du deine Handkarten aufdecken."
+
+#: dummy.c:317
+msgid "Giant Butterfly Eveningbreeze"
+msgstr "Riesenfalter Abendrot"
+
+#: dummy.c:318
+msgid "Giant Butterfly Morningwind"
+msgstr "Riesenfalter Morgenwind"
+
+#: dummy.c:319
+msgid "Deploy Butterfly"
+msgstr "Entsende den Aufkäerer-Falter"
+
+#: dummy.c:321
+msgid "Bounce Back"
+msgstr "Lass' die Fäuste tanzen"
+
+#: dummy.c:322
+msgid "My active cards attack again."
+msgstr "Meine aktiven Karten greifen erneut an."
+
+#: dummy.c:323
+msgid "Wild Unicorn"
+msgstr "Hüterin des Einhorns"
+
+#: dummy.c:324
+msgid "Pen-dor-Nith"
+msgstr ""
+
+#: dummy.c:325
+msgid ""
+"I may only play this card if you have a total of at least six cards in your "
+"combat and support areas.  The contested element of the fight changes "
+"between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn du mindestens 3 aktive Karten in "
+"deinen Kampf- und Unterstützungsbereichen ausliegen hast. Der Kampf wechselt "
+"zwischen Feuer und Erde."
+
+#: dummy.c:326
+msgid "Heat Haze"
+msgstr "Hitzeschleier"
+
+#: dummy.c:327
+msgid "You may not play character/booster cards that have special power text."
+msgstr ""
+"Du darfst keine Charaktere und Verstärkungen mit Sonderfunktion auslegen."
+
+#: dummy.c:328
+msgid "Aqua"
+msgstr ""
+
+#: dummy.c:329
+msgid "Aqua-Alpha-Alpha"
+msgstr ""
+
+#: dummy.c:330
+msgid "Eelena-Aqua-Prima-Alpha"
+msgstr ""
+
+#: dummy.c:331
+msgid "Giant Octopus"
+msgstr "Riesenoktopus"
+
+#: dummy.c:332
+msgid "Terrible Kraken"
+msgstr "Schreckenskrake"
+
+#: dummy.c:333
+msgid "Electric Eel"
+msgstr "Gewaltiger Zitteraal"
+
+#: dummy.c:334
+msgid "Briny Behemoth"
+msgstr "Verfressener Monsterfisch"
+
+#: dummy.c:335
+msgid "Uurunia-Aqua-Terz"
+msgstr ""
+
+#: dummy.c:336
+msgid "Iisilia-Aqua-Terz"
+msgstr ""
+
+#: dummy.c:337
+msgid "Kelp Leech"
+msgstr "Gefräßiger Seetang"
+
+#: dummy.c:338
+msgid "Colossal Crustacean"
+msgstr "Gigantisches Krustentier"
+
+#: dummy.c:339
+msgid "Oomola-Aqua-Delta"
+msgstr ""
+
+#: dummy.c:340
+msgid "Now I may discard any number of cards from my hand."
+msgstr "Jetzt darf ich beliebig viele Karten aus meiner Hand abwerfen."
+
+#: dummy.c:341
+msgid "Yang"
+msgstr ""
+
+#: dummy.c:342 dummy.c:344
+msgid ""
+"The next character/booster/support card I play on this turn is treated as if "
+"it had the FREE icon."
+msgstr ""
+"Die nächste Charakter-, Verstärkungs- oder Unterstützungskarte, die ich in "
+"diesem Zug auslege, wird behandelt als hätte sie das FREI-Symbol."
+
+#: dummy.c:343
+msgid "Yin"
+msgstr ""
+
+#: dummy.c:345
+msgid "Oosa-Aqua-Epsilon"
+msgstr ""
+
+#: dummy.c:346
+msgid ""
+"Now I may place any number of cards from my hand at the bottom of the draw "
+"deck."
+msgstr ""
+"Jetzt darf ich beliebig viele Karten aus meiner Hand unter meinen "
+"Nachziehstapel legen."
+
+#: dummy.c:347
+msgid "Sudden Waterspout"
+msgstr "Tosende Wasserhose"
+
+#: dummy.c:348
+msgid "Instant Undertow"
+msgstr "Unentrinnbarer Sog"
+
+#: dummy.c:349
+msgid "Aquatic Armor"
+msgstr "Wasserrüstung"
+
+#: dummy.c:350
+msgid "Firewater"
+msgstr "Feuerwasser"
+
+#: dummy.c:351
+msgid "My total power in Fire increases to 7."
+msgstr "Meine Stärke in Feuer erhöht sich auf 7."
+
+#: dummy.c:352
+msgid "Fire Swamp"
+msgstr "Brennender Sumpf"
+
+#: dummy.c:353
+msgid "Perilous Marsh"
+msgstr "Gefahrvoller Modder"
+
+#: dummy.c:354
+msgid "Ravenous Razorjaw"
+msgstr "Hungrige Sumpflurche"
+
+#: dummy.c:355
+msgid "Swarming Sea Serpents"
+msgstr "Schwärmende Seeschlangen"
+
+#: dummy.c:356
+msgid "Torrential Flood"
+msgstr "Reißende Sturzflut"
+
+#: dummy.c:357 dummy.c:359
+msgid ""
+"If I have more than one active Flood support card after the end of my turn, "
+"then you must immediately retreat."
+msgstr ""
+"Wenn ich nach dem Ende meines Zuges mehr als 1 aktive Flut-Unterstützung "
+"habe, musst du dich sofort zurückziehen."
+
+#: dummy.c:358
+msgid "Tidal Flood"
+msgstr "Gewaltige Gezeitenflut"
+
+#: dummy.c:360
+msgid "Irresistible Sirens"
+msgstr "Unwiderstehliche Sirenen"
+
+#: dummy.c:361
+msgid ""
+"By the end of your Booster/Support phase, you must discard one character "
+"card from your hand, or I attract one (additional) dragon - even if you "
+"retreat."
+msgstr ""
+"Bis zum Ende deiner Verstärkungs- und Unterstützungsphase musst du 1 "
+"Charakter aus deiner Hand abwerfen oder ich gewinne 1 (zusätzlichen) Drachen "
+"- selbst wenn du dich zurückziehst."
+
+#: dummy.c:362
+msgid "Sprinkle Water of Tranquility"
+msgstr "Weihe das Wasser der Balance"
+
+#: dummy.c:363
+msgid ""
+"Now you may not have more than five cards in your hand and you must discard "
+"any additional cards."
+msgstr ""
+"Du darfst jetzt keine Kartenhand mit mehr als 5 Karten haben und musst "
+"überzählige Karten abwerfen."
+
+#: dummy.c:364
+msgid "Administer Water of Immortality"
+msgstr "Trinke das Wasser des Lebens"
+
+#: dummy.c:365
+msgid "Now I may shuffle my discard pile into my draw deck."
+msgstr ""
+"Jetzt darf ich die Karten meines ABwurfstapels in meinen Nachziehstapel "
+"mischen."
+
+#: dummy.c:366
+msgid "Launch Hail of Doom"
+msgstr "Abwurf Eishagel"
+
+#: dummy.c:367
+msgid "Mekarthas the Shrewd"
+msgstr "Mekarthas der Scharfsinnige"
+
+#: dummy.c:368
+msgid "Your icons are ignored, except STOP."
+msgstr "Deine Symbole werden ignoriert, mit Ausnahme von STOPP-Symbolen."
+
+#: dummy.c:369
+msgid "Sas-van-Son"
+msgstr ""
+
+#: dummy.c:370
+msgid ""
+"I may only play this card if you have at least two more cards in your hand "
+"than I.  The contested element of the fight changes between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn du mindestens 2 Karten mehr auf der "
+"Hand hast als ich. Der Kampf wechselt zwischen Erde und Feuer."
+
+#: dummy.c:371
+msgid "Drowning Rain Storm"
+msgstr "Mitreißender Regensturm"
+
+#: dummy.c:373
+msgid "Buka"
+msgstr ""
+
+#: dummy.c:374
+msgid "Council of Eight"
+msgstr ""
+
+#: dummy.c:375
+msgid "Commodore Lo Tan"
+msgstr ""
+
+#: dummy.c:376
+msgid "Commodore Tai Marn"
+msgstr ""
+
+#: dummy.c:377
+msgid "Captain Ariosa Paal"
+msgstr ""
+
+#: dummy.c:378
+msgid "Captain Su Cha"
+msgstr ""
+
+#: dummy.c:379
+msgid "Sailingmaster Yo Cha"
+msgstr ""
+
+#: dummy.c:380
+msgid "Sailingmaster Boo Marn"
+msgstr ""
+
+#: dummy.c:381
+msgid "Cannoneer Tara Ko"
+msgstr ""
+
+#: dummy.c:382
+msgid "Cannoneer Qu Cha"
+msgstr ""
+
+#: dummy.c:383
+msgid "Cannoneer Edilia Paal"
+msgstr ""
+
+#: dummy.c:384
+msgid "Cannoneer Rilana Paal"
+msgstr ""
+
+#: dummy.c:385
+msgid "Cannoneer Riba Ko"
+msgstr ""
+
+#: dummy.c:386
+msgid "Cannoneer Alo Cha"
+msgstr ""
+
+#: dummy.c:387
+msgid "B.P. Unity"
+msgstr ""
+
+#: dummy.c:388
+#, fuzzy
+msgid ""
+"If you have a total of at least six cards in your combat and support areas, "
+"I may play this card as if it had the FREE icon."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn du mindestens 3 aktive Karten in "
+"deinen Kampf- und Unterstützungsbereichen ausliegen hast. Der Kampf wechselt "
+"zwischen Feuer und Erde."
+
+#: dummy.c:389
+msgid "B.P. Ferocity"
+msgstr ""
+
+#: dummy.c:390
+#, fuzzy
+msgid ""
+"If you have two or more active character cards, I may play this card as if "
+"it had the FREE icon."
+msgstr ""
+"Wenn du mehr als 1 aktiven Charakter ausliegen hast, darf ich 1 davon "
+"abwerfen."
+
+#: dummy.c:391
+msgid "B.P. Bravery"
+msgstr ""
+
+#: dummy.c:392
+#, fuzzy
+msgid ""
+"If you have two or more active booster cards, I may play this card as if it "
+"had the FREE icon."
+msgstr ""
+"Die nächste Charakter-, Verstärkungs- oder Unterstützungskarte, die ich in "
+"diesem Zug auslege, wird behandelt als hätte sie das FREI-Symbol."
+
+#: dummy.c:393
+msgid "B.P. Mystery"
+msgstr ""
+
+#: dummy.c:394
+#, fuzzy
+msgid ""
+"If you have two or more active support cards, I may play this card as if it "
+"had the FREE icon."
+msgstr ""
+"Die nächste Charakter-, Verstärkungs- oder Unterstützungskarte, die ich in "
+"diesem Zug auslege, wird behandelt als hätte sie das FREI-Symbol."
+
+#: dummy.c:395
+msgid "B.P. Loyalty"
+msgstr ""
+
+#: dummy.c:396
+#, fuzzy
+msgid ""
+"If you have two or more active cards with icons, I may play this card as if "
+"it had the FREE icon."
+msgstr ""
+"Wenn du mehr als 1 aktiven Charakter ausliegen hast, darf ich 1 davon "
+"abwerfen."
+
+#: dummy.c:397
+msgid "Boatswain Mena Marn"
+msgstr ""
+
+#: dummy.c:398
+#, fuzzy
+msgid ""
+"You may not have more than one active character card at the end of your "
+"Character phase."
+msgstr ""
+"Wenn du mehr als 1 aktiven Charakter ausliegen hast, darf ich 1 davon "
+"abwerfen."
+
+#: dummy.c:399
+msgid "Coxswain Mora Marn"
+msgstr ""
+
+#: dummy.c:400
+#, fuzzy
+msgid ""
+"If this card is played from a landed ship, now I may discard all cards from "
+"your combat area, except active PROTECTED cards."
+msgstr ""
+"Jetzt darf ich alle Karten aus deinem Kampfbereich abwerfen, mit Ausnahme "
+"aktiver Karten, die ein GESCHÜTZT-Symbol haben."
+
+#: dummy.c:401
+msgid "Quartermaster Kura Ko"
+msgstr ""
+
+#: dummy.c:402
+#, fuzzy
+msgid "On my turn, I may play any number of support cards."
+msgstr "In diesem Zug darf ich beliebig viele Unterstützungen auslegen."
+
+#: dummy.c:403
+msgid "Powdermaster Yina Ko"
+msgstr ""
+
+#: dummy.c:404
+#, fuzzy
+msgid "The values of my active bluff cards increase to 4."
+msgstr "Die Werte eines meiner Charaktere erhöhen sich auf 5."
+
+#: dummy.c:405
+msgid "Lookout Dolora Paal"
+msgstr ""
+
+#: dummy.c:406
+#, fuzzy
+msgid ""
+"Now I may discard all of your active booster cards or all of your active "
+"support cards."
+msgstr ""
+"Jetzt darf ich 1 deiner aktiven Verstärkungen oder Unterstützungen abwerfen."
+
+#: dummy.c:407
+msgid "Old Goo Laa's Ghost"
+msgstr ""
+
+#: dummy.c:408
+#, fuzzy
+msgid ""
+"I may only play this card if I have no cards in my influence area.  The "
+"contested element of the fight changes between Fire and Earth."
+msgstr ""
+"Ich darf diese Karte nur auslegen, wenn ich keine Karten in meinen Kampf- "
+"und Unterstützungsbereichen ausliegen habe. Der Kampf wechselt zwischen Erde "
+"und Feuer."
+
+#: dummy.c:409
+msgid "Letter of Marque"
+msgstr ""
+
+#: dummy.c:410
+msgid "You may not call my bluff."
+msgstr ""
+
+#: dummy.c:411
+msgid "Armory"
+msgstr ""
+
+#: dummy.c:413
+#, fuzzy
+msgid "Duplicator of Fire"
+msgstr "Trickreicher Stärkedoppler"
+
+#: dummy.c:415
+msgid "Entreat Favor"
+msgstr ""
+
+#: dummy.c:416
+#, fuzzy
+msgid ""
+"Now I search through my draw deck and may select either one influence card "
+"and play it, or one character/booster/support card and load it onto one of "
+"my ships.  Then I reshuffle."
+msgstr ""
+"Jetzt darf ich aus meinem Nachziehstapel 1 Karte auswählen, dir zeigen und "
+"auf meine Hand nehmen. Danach mische ich meinen Nachziehstapel."
+
+#: dummy.c:417
+msgid "Sea Falcon"
+msgstr ""
+
+#: dummy.c:418
+msgid ""
+"On the turn in which I land this ship, I may also play cards from my hand."
+msgstr ""
+
+#: dummy.c:419
+msgid "Sea Devil"
+msgstr ""
+
+#: dummy.c:420
+#, fuzzy
+msgid "Now I may load up to three cards from my hand onto this ship."
+msgstr "Jetzt darf ich 1 Karte aus deiner Hand ziehen und abwerfen."
+
+#: dummy.c:421
+msgid "Rising Sun"
+msgstr ""
