@@ -104,6 +104,7 @@ static char *effect_name[9][32] =
 		NULL,
 	},
 
+
 	/* Category three */
 	{
 		"YOU_MAY_NOT",

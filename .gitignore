@@ -1,3 +1,7 @@
+# Build dir and executable
+bluemoon
+build/
+
 # Prerequisites
 *.d
 
